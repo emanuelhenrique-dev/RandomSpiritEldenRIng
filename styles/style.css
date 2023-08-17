@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/background.png);
+  background-size: cover;
+  color: white  ;
+}
+
+ul {
+  list-style: none;
+}
+
+.api {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.323);
+  display: flex;
+  padding-top: 30px;
+  padding-inline: 20%;
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 42px;
+  position: relative;
+  display: inline;
+  position: relative;
+}
+
+h1::after {
+  content: '';
+  width:80px;
+  height:80px;
+  position: absolute;
+  background-image: url(/assets/exmplo.png);
+  background-size: contain;
+  top: -15px;
+  left: 365px;
+}
+
+
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  gap: 38px
+}
+
+
+.generator h2 {
+  font-size: 24px;
+}
+
+.generator .options{
+  display: flex;
+  gap: 16px;
+}
+
+.generator .options li {
+  padding: 7px 45px;  
+  border-radius: 37px;
+  border: 2px solid #3c4555;
+  cursor: pointer;
+}
+
+.generator .options li:hover {
+  border: 2px solid #FFF;
+}
+
+.generator .options li.active {
+  border: 2px solid #8bdb8b;
+  background-color: #8bdb8b7a;
+}
+
+.generator button {
+  display: inline;
+  font-size: 24px;
+  padding: 8px 48px;
+  border-radius: 8px;
+  background: #3772FF;
+  color: #F9F9F9;
+}
+
+.generator button:hover {
+  background: #639ecf;
+  cursor: pointer;
+}
+
+.cards h2 {
+  font-size: 40px;
+  padding-bottom: 42px;
+}
+
+.cards ul{
+  display: flex;
+  gap: 42px;
+}
+
+
+.cards ul li{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  width: 30%;
+
+}
+
+.cards ul li .close {
+  position: absolute;
+  top: 10px;
+  right: 27px;
+  cursor: pointer;
+  filter:grayscale(1);
+}
+
+.cards ul li img {
+  user-select: none;
+  transition: 1s;
+}
+
+.cards ul li img:hover {
+  transform: scale(1.3);
+}
+
+.cards ul li .close:hover {
+  transform: scale(1.2);
+  filter:hue-rotate(0deg);
+}
+
+
+
+.cards ul li h3 {
+  font-size: 20px;
+  text-align: center;
+}
+
