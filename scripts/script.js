@@ -52,32 +52,32 @@ function listarCards() {
   spiritCards.innerHTML = `
     <li id="0">
       <div class="close">
-        <img class="delete" id="0" src="/assets/close.svg" alt="" />
+        <img class="delete" id="0" src="./assets/close.svg" alt="" />
       </div>
       <img src="${tempList[0].img}" alt="" />
       <h3>${tempList[0].name}</h3>
       <a href="${tempList[0].Link}" target="_blank"
-        ><img src="/assets/link.svg" alt=""
+        ><img src="./assets/link.svg" alt=""
       /></a>
     </li>
     <li id="1">
       <div class="close">
-        <img class="delete" id="1" src="/assets/close.svg" alt="" />
+        <img class="delete" id="1" src="./assets/close.svg" alt="" />
       </div>
       <img src="${tempList[1].img}" alt="" />
       <h3>${tempList[1].name}</h3>
       <a href="${tempList[1].Link}" target="_blank"
-        ><img src="/assets/link.svg" alt=""
+        ><img src="./assets/link.svg" alt=""
       /></a>
     </li>
     <li id="2">
       <div class="close">
-        <img class="delete" id="2" src="/assets/close.svg" alt="" />
+        <img class="delete" id="2" src="./assets/close.svg" alt="" />
       </div>
       <img src="${tempList[2].img}" alt="" />
       <h3>${tempList[2].name}</h3>
       <a href="${tempList[2].Link}" target="_blank"
-        ><img src="/assets/link.svg" alt=""
+        ><img src="./assets/link.svg" alt=""
       /></a>
     </li>
   `;
