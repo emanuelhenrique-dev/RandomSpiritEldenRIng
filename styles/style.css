@@ -127,6 +127,7 @@ h1::after {
   right: 27px;
   cursor: pointer;
   filter:grayscale(1);
+  z-index: 1;
 }
 
 .cards ul li img {
