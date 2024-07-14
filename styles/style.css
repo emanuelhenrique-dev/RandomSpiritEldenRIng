@@ -69,11 +69,23 @@ h1::after {
   gap: 16px;
 }
 
-.generator .options li {
+.generator .options li,
+.generator .toggleDlc{
   padding: 7px 45px;  
   border-radius: 37px;
   border: 2px solid #3c4555;
   cursor: pointer;
+  user-select: none;
+}
+
+.generator .toggleDlc {
+  max-width: fit-content;
+  padding-inline: 30px; 
+}
+
+.generator .toggleDlc.active {
+  border: 2px solid #db968b;
+  background-color: #db8b8b7a;
 }
 
 .generator .options li:hover {
@@ -133,6 +145,8 @@ h1::after {
 .cards ul li img {
   user-select: none;
   transition: 1s;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .cards ul li img:hover {

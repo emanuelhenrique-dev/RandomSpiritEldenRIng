@@ -444,7 +444,147 @@ const spiritList = [
     id: '63',
     name: 'NIGHTMAIDEN & SWORDSTRESS PUPPETS',
     img: './assets/NIGHTMAIDEN_SWORDSTRESS_PUPPETS.png',
-    dif: '5',
+    dif: '3',
     Link: 'https://eldenring.wiki.fextralife.com/Nightmaiden+&+Swordstress+Puppets'
+  },
+  {
+    id: '64',
+    name: 'CURSEBLADE MEERA',
+    img: './assets/CURSEBLADE_MEERA.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Curseblade+Meera'
+  },
+  {
+    id: '65',
+    name: 'BLOODFIEND HEXERS ASHES',
+    img: './assets/BLOODFIEND_HEXERS_ASHES.png',
+    dif: '6',
+    Link: "https://eldenring.wiki.fextralife.com/Bloodfiend+Hexer's+Ashes"
+  },
+  {
+    id: '66',
+    name: 'GRAVEBIRD ASHES',
+    img: './assets/GRAVEBIRD_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Gravebird+Ashes'
+  },
+  {
+    id: '67',
+    name: 'FIRE KNIGHT HILDE',
+    img: './assets/FIRE_KNIGHT_HILDE.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Fire+Knight+Hilde'
+  },
+  {
+    id: '68',
+    name: 'SPIDER SCORPION ASHES',
+    img: './assets/SPIDER_SCORPION_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Spider+Scorpion+Ashes'
+  },
+  {
+    id: '69',
+    name: 'INQUISITOR ASHES',
+    img: './assets/INQUISITOR_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Inquisitor+Ashes'
+  },
+  {
+    id: '70',
+    name: 'DEMI-HUMAN SWORDSMAN YOSH',
+    img: './assets/DEMIHUMAN_SWORDSMAN_YOSH.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Demi-Human+Swordsman+Yosh'
+  },
+  {
+    id: '71',
+    name: 'MESSMER SOLDIER ASHES',
+    img: './assets/MESSMER_SOLDIER_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Messmer+Soldier+Ashes'
+  },
+  {
+    id: '72',
+    name: 'BLACK KNIGHT COMMANDER ANDREAS',
+    img: './assets/BLACK_KNIGHT_COMMANDER_ANDREAS.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Black+Knight+Commander+Andreas'
+  },
+  {
+    id: '73',
+    name: 'BLACK KNIGHT CAPTAIN HUW',
+    img: './assets/BLACK_KNIGHT_CAPTAIN_HUW.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Black+Knight+Captain+Huw'
+  },
+  {
+    id: '74',
+    name: 'BIGMOUTH IMP ASHES',
+    img: './assets/BIGMOUTH_IMP_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Bigmouth+Imp+Ashes'
+  },
+  {
+    id: '75',
+    name: 'MAN-FLY ASHES',
+    img: './assets/MAN_FLY_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Man-Fly+Ashes'
+  },
+  {
+    id: '76',
+    name: 'TAYLEW THE GOLEM SMITH',
+    img: './assets/TAYLEW_THE_GOLEM_SMITH.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Taylew+the+Golem+Smith'
+  },
+  {
+    id: '77',
+    name: 'DIVINE BIRD WARRIOR ORNIS',
+    img: './assets/DIVINE_BIRD_WARRIOR_ORNIS.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Divine+Bird+Warrior+Ornis'
+  },
+  {
+    id: '78',
+    name: 'HORNED WARRIOR ASHES',
+    img: './assets/HORNED_WARRIOR_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Horned+Warrior+Ashes'
+  },
+  {
+    id: '79',
+    name: 'ANCIENT DRAGON FLORISSAX',
+    img: './assets/ANCIENT_DRAGON_FLORISSAX.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Ancient+Dragon+Florissax'
+  },
+  {
+    id: '80',
+    name: 'FINGERCREEPER ASHES',
+    img: './assets/FINGERCREEPER_ASHES.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Fingercreeper+Ashes'
+  },
+  {
+    id: '81',
+    name: 'FIRE KNIGHT QUEELIGN',
+    img: './assets/FIRE_KNIGHT_QUEELIGN.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Fire+Knight+Queelign'
+  },
+  {
+    id: '82',
+    name: 'SWORDHAND OF NIGHT JOLAN',
+    img: './assets/SWORDHAND_OF_NIGHT_JOLAN.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Swordhand+of+Night+Jol%C3%A1n'
+  },
+  {
+    id: '83',
+    name: 'JOLAN AND ANNA',
+    img: './assets/JOLAN_AND_ANNA.png',
+    dif: '6',
+    Link: 'https://eldenring.wiki.fextralife.com/Jol%C3%A1n+and+Anna'
   }
 ];

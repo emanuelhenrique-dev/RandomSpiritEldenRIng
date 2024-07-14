@@ -2,6 +2,7 @@ const difList = document.querySelector('.generator .options');
 const difCards = document.querySelectorAll('.generator .options li');
 
 let dif = 5;
+let DLC_Active = false;
 
 //deixar selecionado uma das facilidades
 difList.addEventListener('click', (e) => {
@@ -19,6 +20,16 @@ difList.addEventListener('click', (e) => {
   }
 });
 
+//deixar selecionado se quiser que apareca summons da dlc
+const dlcActive = document.querySelector('.generator .toggleDlc');
+
+dlcActive.addEventListener('click', (e) => {
+  const option = e.target;
+
+  option.classList.toggle('active');
+  DLC_Active = !DLC_Active;
+});
+
 //button gerar e adicionar no array
 
 const gerarButton = document.querySelector('.generator button');
@@ -28,10 +39,18 @@ let tempList = [];
 gerarButton.addEventListener('click', (e) => {
   console.log(dif);
   tempList = [];
-  for (let i = 0; i < 3; ) {
-    const random = Math.floor(Math.random() * spiritList.length);
+  let Spirits = spiritList.length;
 
-    if (spiritList[random].dif <= dif && spiritList[random].dif != 0) {
+  // verificar se e um espirito de dlc e se ta ativo
+  if (!DLC_Active) {
+    Spirits = spiritList.length - 20;
+  }
+
+  for (let i = 0; i < 3; ) {
+    const random = Math.floor(Math.random() * Spirits);
+    console.log('random:' + random);
+
+    if (spiritList[random].dif >= dif && spiritList[random].dif != 0) {
       tempList.push(spiritList[random]);
       i++;
     } else if (spiritList[random].dif == 0 && dif == 1) {
@@ -106,9 +125,17 @@ function subst(id, oldId) {
     const random = Math.floor(Math.random() * spiritList.length);
     console.log('novo =' + spiritList[random].id);
     console.log('velho =' + oldId);
-    if (spiritList[random].dif <= dif && spiritList[random].dif != 0) {
+    if (spiritList[random].dif >= dif && spiritList[random].dif != 0) {
       tempList.splice(id, 1, spiritList[random]);
-      found = true;
+      if (spiritList[random].dif >= dif) {
+        found = true;
+
+        if (spiritList[random].dif == 6) {
+          found = DLC_Active;
+        }
+      } else {
+        found = false;
+      }
     } else if (spiritList[random].dif == 0 && dif == 1) {
       tempList.splice(id, 1, spiritList[random]);
       found = true;
